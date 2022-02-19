@@ -5,7 +5,12 @@
 *.kotlin_module diff text
 
 *.kt eol=lf
+*.ts eol=lf
+*.js eol=lf
+*.scss eol=lf
+*.css eol=lf
 
 # binary
 *.7z binary
 
+.browserslistrc eol=lf
