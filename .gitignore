@@ -1,0 +1,66 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.class
+
+# uVision
+uvision/*/Objects/
+uvision/*/RTE/
+uvision/*/Listings/
+uvision/*/*~*TMP
+
+# output that you shouldn't share to a public repo
+.git-credentials
+.error_log
+
+# commonly used throwaway help/manpage output suffixes of mine
+*.--help 
+*.help.out
+.time_ab.log
+.time_elapsed.log
+
+node_modules/
+lib/
+
+# java/kotlin
+kotlin/KotlinMaven/jaxrs-doclet *
+kotlin/njsoly - Darc*
+
+#IDEA
+.idea/sonarlint/issuestore/
+#kotlin/.idea/*/*.xml
+#.idea/*xml
+#kotlin/.idea/*.xml
+#kotlin/.idea/\.*
+#kotlin/KotlinMaven/.idea/libraries/
+**/.idea/workspace.xml
+
+# temp files 
+*~*
+*.swp
