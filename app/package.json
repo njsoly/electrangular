@@ -1,6 +1,8 @@
 {
   "name": "electrangular",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "An exploration of Electron and extra practice with Angular by a full-stack developer who's heavier on the back",
+  "repository": "https://github.com/njsoly/electrangular",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
