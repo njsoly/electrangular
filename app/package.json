@@ -1,11 +1,14 @@
 {
   "name": "electrangular",
   "version": "0.0.1",
+  "main": "app.js",
+  "mainComment": "the main property is required by electron.",
   "description": "An exploration of Electron and extra practice with Angular by a full-stack developer who's heavier on the back",
   "repository": "https://github.com/njsoly/electrangular",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start electron": "ng build --base-href ./ && electron .",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
