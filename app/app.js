@@ -1,3 +1,5 @@
+/** This file is the main file for the Electron launch.  */
+
 const { app, BrowserWindow } = require('electron')
 const url = require("url");
 const path = require("path");
