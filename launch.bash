@@ -1,5 +1,7 @@
 #!/bin/bash
 
+##### NOTE: Do not use.  Builds electron once, waits until it's closed to build ng.
+
 [[ -z "$electrangular_dir" && -n "$1" ]] && electrangular_dir=$1
 echo "\$1 is $1"
 echo "\$electrangular_dir is $electrangular_dir"
