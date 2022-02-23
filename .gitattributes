@@ -4,6 +4,8 @@
 # text
 *.kotlin_module diff text
 
+*.bash eol=lf
+*.java eol=lf
 *.kt eol=lf
 *.ts eol=lf
 *.js eol=lf
